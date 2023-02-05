@@ -2,6 +2,7 @@ from machine import Pin
 from time import sleep
 
 class Tire:
+    
     def __init__(self, _pin):
         self.pin = _pin;
         self.__pinController = Pin(self.pin, Pin.OUT)
